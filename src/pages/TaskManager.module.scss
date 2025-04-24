@@ -1,0 +1,36 @@
+.container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.input-field {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.section {
+  margin-top: 2rem;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.done {
+  text-decoration: line-through;
+  background-color: #e0ffe0;
+}
